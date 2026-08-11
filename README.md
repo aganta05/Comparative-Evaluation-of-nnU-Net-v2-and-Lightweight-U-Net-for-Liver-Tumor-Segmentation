@@ -1,9 +1,12 @@
+Introduction: 
+
 Tumor segmentation from computed tomography (CT) images plays a critical role in clinical diagnosis,
 treatment planning, radiotherapy guidance, and disease progress monitoring (Sun et al., 2019). An
 accurate delineation of tumor boundaries enables quantitative assessment of tumor progression
 and supports personalized cure strategies (Akakuru et al., 2022). However, manual segmentation
 by radiologists is labor-intensive, time-consuming, and an observer variant, and so motivates the
 development of automated segmentation methods (Nair et al., 2025).
+
 Despite recent advances in medical image analysis, accurate and reliable tumor segmentation in CT
 scans remains challenging due to heterogeneity in tumor morphology, low contrast between tumor
 and surrounding tissues, imaging artifacts, inter-subject variability (Abdoli et al., 2026). In addition,
@@ -15,6 +18,7 @@ Architectures such as U-Net and its variants have become widely adopted due to t
 structure and ability to capture contextual information (Yin et al., 2022) More recently, transformer-
 based and hybrid CNN-transformer models have further improved segmentation performance by
 modeling long-range spatial dependencies and multi-scale representations (Yousaf et al., 2026).
+
 Although recent deep learning frameworks have achieved strong segmentation performance, many
 state-of-the-art models require substantial computational resources and long training times. In
 practical settings, lightweight architecture will offer advantages in terms of efficiency, interpretability,
